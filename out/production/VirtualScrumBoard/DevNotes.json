@@ -1,0 +1,95 @@
+{
+  "ToDo": [
+    {
+      "Screen": "Main",
+      "List": [
+        {
+          "Task": "Search Functionality",
+          "Status": "Done"
+        },
+        {
+          "Task": "Account Btn",
+          "status": "Done"
+        }
+      ],
+      "Progress": "Finished"
+    },
+    {
+      "Screen": "Project",
+      "List": [
+        {
+          "Task": "Load Tickets",
+          "Status": "Done"
+        },
+        {
+          "Task": "Assign Btn",
+          "Status": "Done"
+        },
+        {
+          "Task": "Load Project ID",
+          "Status": "Done"
+        },
+        {
+          "Task": "Add new ticket",
+          "Status": "Done"
+        },
+        {
+          "Task": "Update ticket",
+          "Status": "Done"
+        },
+        {
+          "Task": "Link ticket",
+          "Status": "Done"
+        },
+        {
+          "Task": "Open Secured Ticket",
+          "Status": "Done"
+        },
+        {
+          "Task": "Search Functionality",
+          "Status": "Done"
+        },
+        {
+          "Task": "Filters",
+          "Status": "Done"
+        },
+        {
+          "Task": "Report Btn",
+          "Status": "HalfDone"
+        }
+      ]
+    },
+    {
+      "Screen": "Account",
+      "List": [
+        {
+          "Task": "UI Design",
+          "Status": "Done"
+        },
+        {
+          "Task": "Populate Account Info",
+          "Status": "Done"
+        },
+        {
+          "Task": "Update Account Info",
+          "Status": "Done"
+        },
+        {
+          "Task": "Delete Account",
+          "Status": "Done"
+        }
+      ],
+      "Progress": "Finished"
+    },
+    {
+      "Screen": null,
+      "List": [
+        {
+          "task": "Password Encryption",
+          "Status": "Done"
+        }
+      ],
+      "Progress": "Finished"
+    }
+  ]
+}
