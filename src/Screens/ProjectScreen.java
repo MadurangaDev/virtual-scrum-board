@@ -146,15 +146,15 @@ public class ProjectScreen extends javax.swing.JFrame {
                                                     progress = 0;
                                                 }
                                                 if(userDBActions.generateReport(projectID, projectName, projectOwnerName, projectSecurity, accessCount, ticketCount, toDoTicketCount, ongoingTicketCount, finishedTicketCount, progress)){
-                                                    Messages.customSuccessMessage("Report generated");
                                                     try{
-                                                        JasperDesign jasrep= JRXmlLoader.load("C:\\Users\\shehan\\Documents\\Workspace\\Personal\\NIBM\\EAD\\VirtualScrumBoard\\src\\report\\report1.jrxml");
+                                                        JasperDesign jasrep= JRXmlLoader.load(getClass().getResourceAsStream("/report/report1.jrxml"));
                                                         JRDesignQuery designquery = new JRDesignQuery();
                                                         designquery.setText("select * FROM report");
                                                         jasrep.setQuery(designquery);
 
                                                         JasperReport report = JasperCompileManager.compileReport(jasrep);
                                                         JasperPrint print= JasperFillManager.fillReport(report, null, userDBActions.getConnection());
+                                                        Messages.fullyCustomMessage("Report generating successful. Now opening...");
                                                         JasperViewer.viewReport(print);
 
                                                     }
